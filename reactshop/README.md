@@ -1,3 +1,7 @@
+## PcShop
+본 프로젝트는 방학 개인프로젝트 목적으로 만들어진 컴퓨터 쇼핑몰 입니다.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
