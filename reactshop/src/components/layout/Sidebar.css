@@ -1,0 +1,28 @@
+.sidebar {
+    width: 20%;
+    height: 400px;
+    list-style:none;
+    float: left;
+    text-align: right;
+}
+
+.middlesidebar{
+    margin-bottom: 0.5rem;
+}
+
+.staticdata {
+    list-style:none;
+    text-decoration: none;
+    color: black;
+    margin: 1rem;
+    font-size: 2.0rem;
+    display: inline-block;
+    transition: .2s;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.staticdata:hover{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
