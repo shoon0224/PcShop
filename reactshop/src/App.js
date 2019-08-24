@@ -7,10 +7,6 @@ import { Contents, Login, Signup, Mypage, Basket, ItemList } from './Route'; //ë
 
 class App extends React.Component {
 
-  state = {
-    users: ""
-  }
-
   render() {
     return (
       <div>

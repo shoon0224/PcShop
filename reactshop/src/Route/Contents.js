@@ -17,7 +17,7 @@ const properties = {
   indicators: true,
   arrows: true,
   onChange: (oldIndex, newIndex) => {
-    console.log(`slide transition from ${oldIndex} to ${newIndex}`);
+    console.log(`광고 넘어간데이 ${oldIndex} to ${newIndex}`);
   }
 }
 
@@ -47,7 +47,7 @@ const Contents = () => {
         </div>
       </div>
       <div style={{width:'100%', height:'500px'}}>
-        <figure style={{ float: 'left' }} class="snip1432">
+        <figure style={{ float: 'left' }} className="snip1432">
           <img src={mac} alt="데스크탑" />
           <figcaption>
             <div>
@@ -57,10 +57,10 @@ const Contents = () => {
             <div>
               <h2>데스크탑</h2>
             </div>
-          </figcaption>
+          </figcaption>          
           <a href="/ItemList"></a>
         </figure>
-        <figure style={{ float: 'left' }} class="snip1432">
+        <figure style={{ float: 'left' }} className="snip1432">
           <img src={macbook} alt="노트북" />
           <figcaption>
             <div>
@@ -73,7 +73,7 @@ const Contents = () => {
           </figcaption>
           <a href="/ItemList"></a>
         </figure>
-        <figure  style={{float: 'left' }} class="snip1432">
+        <figure  style={{float: 'left' }} className="snip1432">
           <img src={ipad} alt="모니터" />
           <figcaption>
             <div>

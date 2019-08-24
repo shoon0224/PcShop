@@ -8,8 +8,15 @@
 .Signupitem{
     margin: 1rem;
 }
-.p{
-    
+
+.signupButton{
+    width: 305px;;
+    height:50px;
+    background-color:black;
+    border-radius: 10px;
+    border:1px solid black;
+    font-size: 30px;
+    color:white;
 }
 .Signupinputitem{
     width: 300px;;
