@@ -51,7 +51,7 @@ const Contents = () => {
           <img src={mac} alt="데스크탑" />
           <figcaption>
             <div>
-              <h3>Mac</h3>
+              <h3>고성능</h3>
               <h3>보러가기</h3>
             </div>
             <div>
@@ -64,7 +64,7 @@ const Contents = () => {
           <img src={macbook} alt="노트북" />
           <figcaption>
             <div>
-              <h3>Macbook</h3>
+              <h3>휴대용</h3>
               <h3>보러가기</h3>
             </div>
             <div>
@@ -77,7 +77,7 @@ const Contents = () => {
           <img src={ipad} alt="모니터" />
           <figcaption>
             <div>
-              <h3>iPad</h3>
+              <h3>한손에</h3>
               <h3>보러가기</h3>
             </div>
             <div>
