@@ -29,10 +29,13 @@
     list-style:none;
     color:black;
     display: inline-block;
+    transition: .3s;
+    -webkit-transform: scale(1);
+    transform: scale(1);
 }
 .pcitem:hover{
-    -webkit-animation: zoom .5s;
-    animation: zoom .5s;
+  -webkit-transform: scale(1.8);
+  transform: scale(1.8);
 }
 
 .item{

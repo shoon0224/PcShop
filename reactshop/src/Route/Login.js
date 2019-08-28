@@ -48,7 +48,7 @@ class Login extends React.Component {
     }
     render() {
         return (
-            <form className="login" onSubmit={this.handlesubmit}>
+            <form className="login" action="/Contents" onSubmit={this.handlesubmit}>
                 <div>
                     <div className="loginitem">
                         <input className="logininputitem" type="text" placeholder="아이디를 입력하세요" name="userid" value={this.state.userid} onChange={this.handleValueChange} />

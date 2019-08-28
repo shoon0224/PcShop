@@ -1,9 +1,14 @@
 import React from 'react';
+import { Redirect } from 'react-router-dom';
+
+const logged = false;
 
 const Order = () => {
     return (
         <div>
-           주문페이지입니다. 
+            {
+                !logged && <Redirect to="./Login" />
+            }
         </div>
     );
 };
