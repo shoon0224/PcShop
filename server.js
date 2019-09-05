@@ -76,8 +76,32 @@ app.post('/login', (req, res) => {
         });
 });
 
-app.get('/products', (req, res) => { 
+app.get('/products/all', (req, res) => { 
     let sql = 'SELECT * FROM PRODUCTS';
+    connection.query(sql,
+        (err, rows, fields) => {
+            res.send(rows);
+            console.log(err);
+        })
+})
+app.get('/products/desk', (req, res) => { 
+    let sql = 'SELECT * FROM PRODUCTS WHERE LINEUP ="DESK"';
+    connection.query(sql,
+        (err, rows, fields) => {
+            res.send(rows);
+            console.log(err);
+        })
+})
+app.get('/products/note', (req, res) => { 
+    let sql = 'SELECT * FROM PRODUCTS WHERE LINEUP ="NOTE"';
+    connection.query(sql,
+        (err, rows, fields) => {
+            res.send(rows);
+            console.log(err);
+        })
+})
+app.get('/products/tablet', (req, res) => { 
+    let sql = 'SELECT * FROM PRODUCTS WHERE LINEUP ="TABLET"';
     connection.query(sql,
         (err, rows, fields) => {
             res.send(rows);

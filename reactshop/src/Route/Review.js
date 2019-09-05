@@ -1,6 +1,6 @@
 import React from 'react';
 import './ForItemDetail.css'
-import { Route, Link } from 'react-router-dom'
+import {Link } from 'react-router-dom'
 
 
 class Review extends React.Component {
@@ -71,7 +71,7 @@ class Review extends React.Component {
 
         return (
             <div className="DetailContainer">
-                <div style={{ width: "45%", height: "450px", float: "left", marginRight: "50px" }}><img style={{ width: "100%" }} src="http://s-me.kr/data/item/1801025119/thumb-1801025119_300x300.jpg" /></div>
+                <div style={{ width: "45%", height: "450px", float: "left", marginRight: "50px" }}><img style={{ width: "100%" }} src="http://s-me.kr/data/item/1801025119/thumb-1801025119_300x300.jpg" alt="상세이미지" /></div>
                 <div><h4 style={{ float: "left", width: "35%", fontSize: "2.5rem", borderBottom: "1px solid black", margin: "10px" }}>2,000,000 원</h4></div>
                 <div style={{ float: "left", width: "35%", height: "250px", border: "1px solid gray", borderRadius: "10px", margin: "10px" }}>
                     <h2 style={{ marginLeft: "10px" }}>상품이름 : Samsung Odessey</h2><br /><br />
@@ -110,7 +110,7 @@ class BoardItem extends React.Component {
         return (
             <tr>
             <td style={{width:"10%", textAlign:'center',borderBottom:'1px solid black'}}>{this.props.row.brdno}</td>
-            <Link to='ReviewOne'><td><img style={{width:'70px', height:'70px'}} src={this.props.row.brdimg}/></td></Link>
+            <Link to='ReviewOne'><td><img style={{width:'70px', height:'70px'}} src={this.props.row.brdimg} alt="리뷰이미지"/></td></Link>
             <td style={{width:"30%",borderBottom:'1px solid black'}}><h3>상품이름 :</h3> {this.props.row.brdtitle}</td>
             <td style={{borderBottom:'1px solid black'}}>상품 후기 : {this.props.row.brdcoment}</td>
             <td style={{width:'10%',borderBottom:'1px solid black',textAlign:'center'}}>{this.props.row.brdwho}</td>

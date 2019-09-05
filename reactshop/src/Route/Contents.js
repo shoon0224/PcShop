@@ -8,7 +8,7 @@ import mac from '../Image/mac.png'
 import macbook from '../Image/macbook.png'
 import ipad from '../Image/ipad.png'
 import { Slide } from 'react-slideshow-image';
-
+import { Link } from 'react-router-dom';
 
 const properties = {
   duration: 800,
@@ -58,7 +58,7 @@ const Contents = () => {
               <h2>데스크탑</h2>
             </div>
           </figcaption>          
-          <a href="/ItemList"></a>
+          <Link to="ItemList"></Link>
         </figure>
         <figure style={{ float: 'left' }} className="snip1432">
           <img src={macbook} alt="노트북" />
@@ -71,7 +71,7 @@ const Contents = () => {
               <h2>노트북</h2>
             </div>
           </figcaption>
-          <a href="/ItemList"></a>
+          <Link to="ItemList"></Link>
         </figure>
         <figure  style={{float: 'left' }} className="snip1432">
           <img src={ipad} alt="모니터" />
@@ -84,7 +84,7 @@ const Contents = () => {
               <h2>태블릿</h2>
             </div>
           </figcaption>
-          <a href="/ItemList"></a>
+          <Link to="ItemList"></Link>
         </figure>
       </div>
     </div>

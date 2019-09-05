@@ -14,7 +14,7 @@ const LayoutHeader = () => {
             <Link to="/Basket" className="item">장바구니</Link>
         </div>
         <div className="pc">
-            <Link  to="/Contents" className="pcitem"><img style={{width:'100px', height:'100px',padding:'50px'}}src={PC}/></Link>
+            <Link  to="/Contents" className="pcitem"><img style={{width:'100px', height:'100px',padding:'50px'}}src={PC} alt="로고"/></Link>
         </div>
         </div>
     )

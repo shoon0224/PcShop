@@ -14,7 +14,8 @@ class ItemList extends React.Component {
 
     //비동기처리
     callApi = async () => {
-        const response = await fetch('/products');
+        
+        const response = await fetch('/products/all');
         //서버에 있는 데이터를 들고 와서 json 형태로 body라는 변수에 저장
         const body = await response.json();
         return body;
@@ -31,6 +32,5 @@ class ItemList extends React.Component {
         )
     }
 }
-
 
 export default ItemList;
